@@ -1,0 +1,87 @@
+* /*html, body*/{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+} /* vsechny elementy stejne vidime*/
+.container {
+	width: 500px;
+	margin: 0 auto;
+	background: #5dbcd8;
+}
+h1 {
+	text-align:center;
+	width: 500px;
+	border: 2px solid red;
+	padding: 20px;
+	box-sizing: border-box; /*neroztahuje element*/
+}
+img {
+	width: 500px;
+}
+.cerveny {
+	width: 100px;
+	height: 100px;
+	background: red;
+	float: left; /*muze byt jenom left nebo right*/
+}
+.zeleny {
+	width: 100px;
+	height: 100px;
+	background: green;
+	float: left;
+}
+.modry {
+	width: 100px;
+	height: 100px;
+	background: blue;
+	float: left;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+} /*zastaveni floatovani*/
+form, h2, select{
+	margin-left: 15px;	
+}
+input {
+	margin-bottom: 10px;
+	border: 2px solid #2310f6;
+	border-radius: 5px;
+}
+input[type="submit"] {
+	padding: 5px 10px;
+	border: 2px solid black;
+	background: #2310f6;
+	border-radius: 5px;
+	box-shadow: 1px 3px;
+}
+input[type="submit"]:hover {
+	background: #5a8536;
+	color: white;
+}
+
+textarea {
+	margin-bottom: 5px;
+	border: 2px solid #2310f6;
+	border-radius: 5px;
+}
+h3 {
+	background: green;
+}
+.pozicovani {
+	position: relative;
+}
+
+/* {
+	position: absolute;
+	top: +20px;
+	bottom: 0px;
+	left: 500px;
+	right: 0px; 
+}*/
+/* position:
+- static;
+- relative - top, bottom, left, right;
+- absolute -
+- fixed*/
