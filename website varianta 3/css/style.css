@@ -1,0 +1,19 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1 {
+	background: #3431d4;
+	color: white;
+	text-align: center;
+}
+img {
+	margin-left: 50px;
+	margin-bottom: 50px;
+	margin-left: 50px;
+}
+.footer {
+	background: #3431d4;
+	text-align: center;
+}
