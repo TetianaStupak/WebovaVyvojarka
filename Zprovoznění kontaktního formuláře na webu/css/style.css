@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	background: #ffcb91;
+}
+
+a {
+	color: black;
+}
+
+.box {
+	width: 300px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #191919;
+	text-align: center;
+}
+.box h1 {
+	color: white;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.box input[type="text"], .box input[type="email"], textarea {
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #ffcb91;
+	padding: 15px 10px;
+	width: 200px;
+	color: white;
+	border-radius: 15px;
+	outline: none;
+}
+.box input[type="submit"] {
+	background: none;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	border: 2px solid #6ddccf;
+	padding: 15px 40px;
+	width: 200px;
+	outline: none;
+	color: white;
+	border-radius: 15px;
+	text-transform: uppercase;
+	cursor: pointer; /*ручечка*/
+}
+.box input[type="submit"]:hover {
+	background: #6ddccf;
+}
