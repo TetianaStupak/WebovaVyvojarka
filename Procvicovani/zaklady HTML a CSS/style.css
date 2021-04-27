@@ -1,0 +1,73 @@
+/*komentar*/
+h1 {
+	color: green;
+	font-size: 50px;
+	font-weight: 600;
+	font-style: italic;
+	font-size-adjust: 0.3;
+	font-family: serif;
+    text-align: center;
+    border: 2px solid green;
+    padding: 10px 50px 10px 50px;
+    margin: 30px 100px;
+
+}
+h2 {
+	text-align: center;
+}
+h4 {
+	background: linear-gradient(blue, red);  /* подробнее про градиенты */ 
+    background-clip: text;  /* подробнее про background-clip */ 
+    color: transparent;
+    display: block;
+    border: 2px solid green;
+}
+p {
+	font-family: "Times New Roman", Helvetica, sans-serif;
+	text-align: justify;
+}
+/*sans-serif = bezpatkove pismo*
+/*serif = patkove pismo pro nadpisu*/
+/* Text-align: left, right, center, justify; */
+img {
+	border-radius: 50% 50% 50% 50%;
+	box-shadow: 5px 5px 8px black;
+}
+a {
+	text-decoration: none; /*--убирает подчеркивание--*/
+	border-bottom: transparent;
+
+}
+h3 {
+	border: 3px solid yellow;
+	border-top: 3px dotted green;
+	border-left: 3px dashed blue;
+	border-right: 3px groove red;
+	box-shadow: 3px 3px 3px black; 
+	display: inline;
+}
+/*--dotted dashed double groove ridge--*/
+.button {
+	color: black;
+	text-decoration: none;
+	border: 2px solid black;
+	box-shadow: 5px 5px 3px black;
+	background: linear-gradient(green, blue);
+	padding: 5px 50px;
+	margin: 10px;
+	border-radius: 50px;
+	display: inline-block;
+}
+.button:hover {
+	color: white;
+	border: 5px solid blue;
+	background: linear-gradient(green, blue);
+}
+.pismenka {
+	color: yellow;
+}
+a:hovor {
+	color: green;
+	border-bottom: 2px solid green;
+	transition: border-botton 1s;
+}

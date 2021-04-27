@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+header {
+	background: pink;
+	/*height: 150px;*/
+	position: relative;
+}
+header h1 {
+	text-align: center;
+}
+/*header img {
+	position: absolute;
+	left: 42%;
+	bottom: 10%;
+	width: 31px;
+	height: 31px;
+}*/
+header img {
+	display: block;
+	margin: 0 auto;
+} /*размещаем  в центре. centralni posice*/
+h2 {
+	border: 2px solid green;
+	display: inline;
+}
+li {
+	display: inline;
+}
+nav {
+	margin-top: 0px;
+	height: 20px;
+}
+nav a {
+	text-decoration: none;
+	color: #00376a
+}
+a {
+	text-decoration: none;
+	color: #00376a;
+	border-bottom: 2px solid transparent;
+}
+ul {
+	float: right; /* используем если хотим конкретно*/
+	 /* в html обязательно выключить через<div class="clearfix"></div>*/
+	margin-right: 20px;
+}
+.clearfix:after {
+	 content: "";
+    display: table;
+    clear: both;
+}
+a:hover {
+	border-bottom: 2px solid black;
+	transition: border-bottom 1s;
+}

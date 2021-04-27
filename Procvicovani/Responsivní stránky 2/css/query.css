@@ -1,0 +1,22 @@
+@media only screen and (max-width: 600px) {
+
+    main img {
+        width: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    
+    main p {
+        text-align: justify;
+    }
+
+    .col {
+        margin-left: 0;
+    }
+
+    .span-1-of-2 {
+        width: 100%;
+    }
+}

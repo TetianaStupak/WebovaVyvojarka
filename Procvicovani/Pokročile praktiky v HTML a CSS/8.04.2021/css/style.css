@@ -1,0 +1,24 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1 {
+	color: red;
+	text-align: center;
+}
+#cerveny {
+	color: royalblue;
+}
+input[type="text"] {
+	color: blue;
+}
+input {
+	color: green;
+}
+.seznam a {
+	color: red;
+}
+input:hover {
+	color: red;
+}

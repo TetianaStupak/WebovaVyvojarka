@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.mainHeader {
+    background: #a06b0a;
+    height: 80px;
+    width: 100%;
+	position: fixed;
+}
+.logo {
+	color: white;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+}
+.navigation {
+	position: relative;
+}
+.navigation ul {
+	position: absolute;
+	top: -78px;
+	right: 20px;
+}
+.navigation li {
+	display: inline-block;
+	list-style-type: none;
+    line-height: 80px;
+	margin: 0 10px;
+}
+.navigation a {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	text-transform: uppercase; /*velikost*/
+	padding: 7px 13px;
+	border-radius: 3px;
+}
+a.active, a:hover {
+    background-color: #52360b;
+    transition: background-color 0.5s;
+}
+.checkicon {
+	position: absolute;
+	right: 20px;
+    top: -78px; 
+    font-size: 30px;
+    color: #fff;
+    line-height: 80px;
+    margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+#check {
+    display: none;
+}
+
