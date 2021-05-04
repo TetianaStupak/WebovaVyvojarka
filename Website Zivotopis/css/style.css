@@ -7,7 +7,32 @@ img{
     width: 100%;
 	height: 288px;
 }
-.border {
-	border-radius: 50%;
-	width: 300px;
+.top-up {
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+}
+/*body .container portfolio{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}*/
+.img1 {
+	background-image: url(../img/slide1.png);
+}
+.img2 {
+	background-image: url(../img/slide2.png);
+}
+.img3 {
+	background-image: url(../img/slide3.png);
+}
+.img4 {
+	background-image: url(../img/slide4.png);
+}
+.img5 {
+	background-image: url(../img/slide5.png);
+}
+.portfolio {
+	display: flex;
+	width: 90vw;
 }

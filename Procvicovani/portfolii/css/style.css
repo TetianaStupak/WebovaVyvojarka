@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}s
+.img1 {
+	background-image: url(../img/slide1.png);
+}
+.img2 {
+	background-image: url(../img/slide2.png);
+}
+.img3 {
+	background-image: url(../img/slide3.png);
+}
+.img4 {
+	background-image: url(../img/slide4.png);
+}
+.img5 {
+	background-image: url(../img/slide5.png);
+}
+.container {
+	display: flex;
+}

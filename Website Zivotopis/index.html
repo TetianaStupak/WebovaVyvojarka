@@ -5,14 +5,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome-free-5.15.3-web/css/all.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
     <title>Životopis</title>
 </head>
 
 <body>
-    <header>
-        <section class="container">
+  
+    <header class="navbar-custom">
+        <section class="container" >
             <div class="row">
                 <div class="col-sm-9 p-0">
                     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
@@ -25,90 +28,48 @@
                </div>
                <div class="col-sm-3 p-0">
                   <nav class="list-group">
-                      <button type="button" class="list-group-item list-group-item-action rounded-0 btn btn-outline-primary text-center" aria-current="true">Jazyky</button>
-                      <button type="button" class="list-group-item list-group-item-action rounded-0 btn btn-outline-secondary text-center" aria-current="true">Schopnosti</button>
-                      <button type="button" class="list-group-item list-group-item-action rounded-0 btn btn-outline-success text-center">Dovednosti</button>
-                      <button type="button" class="list-group-item list-group-item-action rounded-0 btn btn-outline-info text-center">Vzdělání</button>
-                      <button type="button" class="list-group-item list-group-item-action rounded-0 btn btn-outline-dark text-center">Pracovní zkušenosti</button>
-                      <button type="button" class="list-group-item list-group-item-action rounded-0 btn btn-outline-warning text-center">Portfolio</button>
-                      <button type="button" class="list-group-item list-group-item-action rounded-0 btn btn-outline-danger text-center">Kontakt</button>
+                      <a type="button" href="#dovednosti" class="list-group-item list-group-item-action rounded-0 btn text-center" aria-current="true">Dovednosti</a>
+                      <a type="button" href="#vzdelani" class="list-group-item list-group-item-action rounded-0 btn text-center" aria-current="true">Vzdělání</a>
+                      <a type="button" href="#jazyky" class="list-group-item list-group-item-action rounded-0 btn text-center">Jazyky</a>
+                      <a type="button" href="#zkusenosti" class="list-group-item list-group-item-action rounded-0 btn text-center">Pracovní zkušenosti</a>
+                      <a type="button" href="#schopnosti" class="list-group-item list-group-item-action rounded-0 btn text-center">Schopnosti</a>
+                      <a type="button" href="#portfolio" class="list-group-item list-group-item-action rounded-0 btn text-center">Portfolio</a>
+                      <a type="button" href="#kontakt" class="list-group-item list-group-item-action rounded-0 btn text-center">Kontakt</a>
                  </nav>
               </div>
             </div>
        </section>
     </header>
 
-    <main>
-      <div class="row">
-        <div class="col-sm-12 p-0 mt-5">
-          <p class="text-uppercase text-center fw-bold">Schopnosti</p>
-        </div>
-    </div> 
-    <section class="container">
-      <div class="row">
-        <div class="col-sm-1 p-0 mt-5">
-        </div>
-          <div class="col-sm-4 p-0 mt-5">
-            <div class="alert alert-info text-center" role="alert">
-              <strong>Proaktivni přistup</strong>
-            </div>
-            <div class="alert alert-warning text-center" role="alert">
-              <strong>Preciznost a přistup</strong> 
-            </div>
-            <div class="alert alert-danger text-center" role="alert">
-              <strong>Zodpovědnost</strong>
-            </div>
-            <div class="alert alert-success text-center" role="alert">
-              <strong>Time management</strong> 
-            </div>
-          </div>
-          <div class="col-sm-2 p-0 mt-5">
-          </div>
-          <div class="col-sm-4 p-0 mt-5">
-            <div class="alert alert-info text-center" role="alert">
-              <strong>Smysl pro detail</strong>
-            </div>
-            <div class="alert alert-warning text-center" role="alert">
-              <strong>Schopnost hledat souvislosti</strong> 
-            </div>
-            <div class="alert alert-danger text-center" role="alert">
-              <strong>Analitické myšlení</strong>
-            </div>
-            <div class="alert alert-success text-center" role="alert">
-              <strong>Flexibilita</strong> 
-            </div>
-          </div>
-        </div>
-    </section>
-         
+    <main class="main-content">
       <section class="container">
         <div class="row">
-            <div class="col-sm-12 p-0 mt-5">
-              <p class="text-uppercase text-center fw-bold">Dovednosti</p>
-            </div>
+          <div class="col-sm-12 p-0 mt-5">
+            <h5 id="dovednosti" class="text-uppercase text-center fw-bold">Dovednosti</h5>
+          </div>
         </div>
       </section> 
       <section class="container">
         <div class="row">
             <div class="col-sm-6 p-0 mt-5">
               <ul class="list-group list-group-flush">
-                <li class="list-group-item text-center">HTML</li>
+                <li class="list-group-item text-left">HTML</li>
                 <div class="progress">
                   <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-                <li class="list-group-item text-center">CSS</li>
+                <li class="list-group-item text-left">CSS</li>
                 <div class="progress">
                   <div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-                <li class="list-group-item text-center">JavaScript</li>
+                <li class="list-group-item text-left">JavaScript</li>
                 <div class="progress">
                   <div class="progress-bar bg-warning" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-                <li class="list-group-item text-center">Bootstrap</li>
+                <li class="list-group-item text-left">Bootstrap</li>
                 <div class="progress">
                   <div class="progress-bar bg-danger" role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-                <li class="list-group-item text-center">Google Analytics</li>
+                <li class="list-group-item text-left">Google Analytics</li>
                 <div class="progress">
                   <div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
@@ -116,23 +77,23 @@
             </div>
             <div class="col-sm-6 p-0 mt-5">
               <ul class="list-group list-group-flush">
-                <li class="list-group-item text-center">Adobe Photoshop</li>
+                <li class="list-group-item text-left">Adobe Photoshop</li>
                 <div class="progress">
-                  <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-                <li class="list-group-item text-center">Social Media Marketing</li>
+                <li class="list-group-item text-left">Social Media Marketing</li>
                 <div class="progress">
-                  <div class="progress-bar bg-danger" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-                <li class="list-group-item text-center">Microsoft Office</li>
+                <li class="list-group-item text-left">Microsoft Office</li>
                 <div class="progress">
                   <div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-                <li class="list-group-item text-center">Canva</li>
+                <li class="list-group-item text-left">Canva</li>
                 <div class="progress">
                   <div class="progress-bar bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-                <li class="list-group-item text-center">Zoner</li>
+                <li class="list-group-item text-left">Zoner</li>
                 <div class="progress">
                   <div class="progress-bar bg-warning" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
@@ -140,58 +101,87 @@
             </div>
         </div>
       </section>
-      
+
       <section class="container">
         <div class="row">
             <div class="col-sm-12 p-0 mt-5">
-              <p class="text-uppercase text-center fw-bold">Vzdělání</p>
+              <h5 id="vzdelani" class="text-uppercase text-center fw-bold">Vzdělání</h5>
+            </div>
+            <div class="col-sm-2 p-0 mt-5">
+            </div>
+            <div class="col-sm-3 p-0 mt-5">
+              <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+                <div class="card-header"><strong>Kyjevska mezinárodní univerzita</strong></div>
+                <div class="card-body">
+                  <p class="card-text">2005 – 2011 Specializace Mezinárodní ekonomické vztahy </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 p-0 mt-5">
+              <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+                <div class="card-header"><strong>Vysoká škola ekonomická v Praze</strong></div>
+                <div class="card-body">
+                  <p class="card-text">2019 - Osvědcění o uznání vysokoškolského vzdělání a kvalifikace v České republice Vysoká škola ekonomická v Praze Specializace Mezinárodní obchod</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 p-0 mt-5">
+              <div class="card text-dark bg-light mb-3" style="max-width: 18rem;">
+                <div class="card-header"><strong>Attavena.cz</strong></div>
+                <div class="card-body">
+                  <p class="card-text">2021 - Kurz Webová vyvojářka</p>
+                </div>
+              </div>
             </div>
         </div>
       </section>
-      <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-             <strong>Kyjevska mezinárodní univerzita</strong> 
-            </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              2005 – 2011 Specializace Mezinárodní ekonomické vztahy                
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-             <strong>Vysoká škola ekonomická v Praze</strong> 
-            </button>
-          </h2>
-          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              	2019 rok Osvědcění o uznání vysokoškolského vzdělání a kvalifikace v České republice Vysoká škola ekonomická v Praze Specializace Mezinárodní obchod
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-             <strong>Attavena.cz</strong>  
-            </button>
-          </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              2021 rok Kurz Webová vyvojářka
-            </div>
-          </div>
-        </div>
-      </div>
-      
+    
+
       <section class="container">
         <div class="row">
             <div class="col-sm-12 p-0 mt-5">
-              <p class="text-uppercase text-center fw-bold">Pracovní zkušenosti</p>
+              <h5 id="jazyky" class="text-uppercase text-center fw-bold">Jazyky</h5>
             </div>
+            <div class="col-sm-3 p-0 mt-5">
+              <div class="card border-primary mb-3" style="max-width: 18rem;">
+                <div class="card-header text-center"><strong>Ruština</strong></div>
+                <div class="card-body">
+                  <p class="card-text text-center">Rodný jazyk</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 p-0 mt-5">
+              <div class="card border-success mb-3" style="max-width: 18rem;">
+                <div class="card-header text-center"><strong>Ukrajinština</strong></div>
+                <div class="card-body">
+                  <p class="card-text text-center">Rodný jazyk</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 p-0 mt-5">
+              <div class="card border-warning mb-3" style="max-width: 18rem;">
+                <div class="card-header text-center"><strong>Čeština</strong></div>
+                <div class="card-body">
+                  <p class="card-text text-center">B2</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3 p-0 mt-5">
+              <div class="card border-dark mb-3" style="max-width: 18rem;">
+                <div class="card-header text-center"><strong>Angličtina</strong></div>
+                <div class="card-body">
+                  <p class="card-text text-center">B1</p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="container">
+        <div class="row">
+          <div class="col-sm-12 p-0 mt-5">
+            <h5 id="zkusenosti" class="text-uppercase text-center fw-bold">Pracovní zkušenosti</h5>
+          </div>
         </div>
         <div class="accordion accordion-flush" id="accordionFlushExample">
           <div class="accordion-item">
@@ -261,13 +251,162 @@
             </button>
           </h2>
         </div>
-      </div>
+      </section>
+
+      <section class="container">
+          <div class="row">
+            <div class="col-sm-12 p-0 mt-5">
+            <h5 id="schopnosti" class="text-uppercase text-center fw-bold">Schopnosti</h5>
+            </div>
+          </div> 
+      </section>
+        <div class="row">
+          <div class="col-sm-2 p-0 mt-5">
+            <p class="alert alert-info text-center"><strong>Proaktivni přistup</strong></p>
+          </div>
+          <div class="col-sm-2 p-0 mt-5">
+          </div>
+          <div class="col-sm-2 p-0 mt-5">
+            <p class="alert alert-warning text-center"><strong>Preciznost a přistup</strong></p>
+          </div>
+          <div class="col-sm-2 p-0 mt-5">
+          </div>
+          <div class="col-sm-2 p-0 mt-5">
+            <p class="alert alert-danger text-center"><strong>Time management</strong></p>
+          </div>
+        </div> 
+        <div class="row">
+          <div class="col-sm-2 p-0 mt-1">
+          </div>
+          <div class="col-sm-2 p-0 mt-1">
+            <p class="alert alert-danger text-center"><strong>Smysl pro detail</strong></p>
+          </div>
+          <div class="col-sm-2 p-0 mt-1">
+          </div>
+          <div class="col-sm-2 p-0 mt-1">
+            <p class="alert alert-success text-center"><strong>Analitické myšlení</strong></p>
+          </div>
+          <div class="col-sm-2 p-0 mt-1">
+          </div>
+          <div class="col-sm-2 p-0 mt-1">
+            <p class="alert alert-info text-center"><strong>Flexibilita</strong></p>
+          </div>
+        </div> 
+
+        <section class="container portfolio">
+          <div class="row">
+            <div class="col-sm-12 p-0 mt-5">
+            <h5 id="portfolio" class="text-uppercase text-center fw-bold">Portfolio</h5>
+            </div>
+          
+          <div class="slide img1 active">
+            <h2>Portfolio</h2>
+          </div>
+
+          <div class="slide img2">
+            <h2>Portfolio</h2>
+          </div>
+
+          <div class="slide img3">
+            <h2>Portfolio</h2>
+          </div>
+
+          <div class="slide img4">
+            <h2>Portfolio</h2>
+          </div>
+
+          <div class="slide img5">
+            <h2>Portfolio</h2>
+          </div>
+        </section>
+      
+
+      <section class="container">
+        <div class="row">
+          <div class="col-sm-12 p-0 mt-5">
+          <h5 id="portfolio" class="text-uppercase text-center fw-bold">Portfolio</h5>
+          </div>
+        </div> 
+      </section>
+      <section class="row">
+        <div class="col-sm-2 p-0 mt-5">
+        </div>
+        <div class="col-sm-8 p-0 mt-5">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/slide1.png" class="d-block h-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/slide2.png" class="d-block h-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/slide3.png" class="d-block h-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/slide4.png" class="d-block h-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/slide5.png" class="d-block h-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div> 
+        </div>
+      </section> 
+
+      <section class="container">
+        <div class="row">
+            <div class="col-sm-12 p-0 mt-5">
+              <h5 id="kontakt" class="text-uppercase text-center fw-bold">Kontakt</h5>
+            </div>
+            <div class="col-sm-3 p-0 mt-5">
+                <ul class="list-unstyled mb-0 text-center">
+                  <li><i class="fas fa-map-marker-alt mt-4 fa-2x"></i> 
+                      <p class="text-center">J.Bendy 1325/3, Ceske Budejovice, 37005</p>
+                  </li>
+                </ul>
+            </div>
+            <div class="col-sm-3 p-0 mt-5">
+              <ul class="list-unstyled mb-0 text-center">
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p class="text-center"><a href="tel:+420773132917">+420 773 132 917</a></p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-3 p-0 mt-5">
+              <ul class="list-unstyled mb-0 text-center">
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p class="text-center"><a href = "mailto:stupak.tetiana@outlook.com">stupak.tetiana@outlook.com</a></p>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-3 p-0 mt-5">
+              <ul class="list-unstyled mb-0 text-center">
+                <li><i class="fas fa-id-card mt-4 fa-2x"></i>
+                    <p class="text-center">trvalý pobyt</p>
+                </li>
+              </ul>
+            </div>
+        </div>
+      </section>
     </main>
 
-    <footer></footer>
+    <footer>
+     <p></p>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
         crossorigin="anonymous"></script>
+        <a class="btn btn-outline-primary top-up" href="#"><i class="fas fa-arrow-up"></i></a>
+    <script src="script.js"></script>
 </body>
 
 </html>
