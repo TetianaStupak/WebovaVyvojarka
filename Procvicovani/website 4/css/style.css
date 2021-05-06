@@ -1,0 +1,221 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Goblin One', cursive;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 12px;	
+}
+.header {
+	height: 95vh;
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(../img/hogwarts-middle.jpg); /*утемняет img
+	/*background: radial-gradient(circle, rgba(238,174,202,0.3) 0%, rgba(148,187,233,0.3) 100%),url(../img/hogwarts-middle.jpg);*/
+	background-attachment: fixed; /*fixed img pri scrolling*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+	position: relative;
+}
+.logo {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+}
+.header-box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	color: white;
+
+}
+.heading-main {
+	color: #ae9959;
+	text-transform: uppercase; /*velke pismenA*/
+	-webkit-text-stroke-width: 0.5px; /*https://caniuse.com/*/
+	-webkit-text-stroke-color: black;
+	font-weight: 400;
+}
+.heading-main-head {
+	display: block;
+	font-size: 40px;
+	/*letter-spacing: 1px; meziry mezi slov*/
+	animation: fromTop 2s linear;
+}
+.heading-sub-head {
+	display: block;
+	font-size: 20px;
+	text-transform: lowercase;
+	animation: fromLeft 2s 1s linear;
+	animation-fill-mode: backwards;
+}
+ /*s
+ Každý odkaz má 4 stádia:
+link = nenavštívený odkaz
+visited = již navštívený odkaz
+active = ve chvíli kliknutí na odkaz
+hover = když se na odkaz najede myší
+*/
+.btn:link, .btn:visited {
+	display: inline-block;
+	margin-top: 20px;
+	padding: 15px 40px;
+    color:  #fff;
+    letter-spacing: 2px;
+    border: 2px solid #ae9959;
+    border-radius: 100px;
+    background-color: #37352c;
+    text-transform: uppercase;
+    text-decoration: none;
+	transition: all .5s;
+	animation: fromDown 2s 1s linear;
+	animation-fill-mode: backwards;
+}
+.btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px #ae9959;
+	transition: all .5s;
+
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px #ae9959;
+	transition: all .5s;
+
+}
+
+.heroes {
+	background: rgb(224, 223, 223);
+	padding: 140px 0px;
+	margin-top: -130px;
+}
+.heroes img {
+	display: block;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 5px;
+	animation: fromLeft 2s linear;
+}
+.about-hero {
+	font-size: 18px;
+    padding-top: 0px;
+}
+.about-hero p {
+	margin-top: 10px;
+    font-size: 20px;
+    line-height: 40px;
+    margin-right: 40px;
+    text-align: justify;
+}
+.gradientBackground {
+	background-image: linear-gradient(90deg, rgba(174,153,89,1) 0%, rgba(0,0,0,1) 76%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.goals {
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(../img/class.jpg);
+	background-attachment: fixed;
+	color: #ae9959;
+	background-size: cover;
+	background-position: top;
+	margin-top: -60px;
+    padding-top: 20px;
+	height: 605px;
+	clip-path: polygon(0 10%, 100% 0, 100% 90%, 0 100%);
+}
+.goals h2 {
+	margin-top: 90px;
+	text-align: center;
+	font-size: 40px;
+    letter-spacing: 5px;
+
+}
+.goals-content {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 40px;
+	font-size: 15px;
+}
+.one-goal {
+    border: 2px solid rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.8);
+    box-shadow: 0 8px 20px #ae9959;;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 30px;
+    border-radius: 10px;
+    width: 300px;
+    height: 100px;
+}
+
+.one-goal p {
+    margin-top: 20px;
+}
+
+.one-goal p {
+    margin-top: 20px;
+}
+
+.one-goal:hover {
+    transform: translateY(-10px);
+    transition: all 0.3s linear;
+    /* box-shadow: 0 0px 0px #ae9959; */
+    /* box-shadow: 0 8px 20px rgb(169, 20, 20); */
+}
+
+
+
+@keyframes fromTop {
+	0% {
+		opacity: 0;
+		transform: translateY(-30px);
+
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+@keyframes fromDown {
+	0% {
+		opacity: 0;
+		transform: translateY(50px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+@keyframes fromLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+@keyframes fromRight {
+    0% {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+
+
+
