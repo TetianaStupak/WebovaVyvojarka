@@ -1,0 +1,11 @@
+@media only screen and (max-width: 800px) {
+    .my-vzdelani {
+        margin-left: 100px;
+    }
+    .my-jazyky {
+        margin-left: 100px;
+    }
+    .conteiner-empty {
+        display: none;
+    }
+} 
