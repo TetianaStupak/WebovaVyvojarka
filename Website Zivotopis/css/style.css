@@ -36,3 +36,9 @@ img{
 	display: flex;
 	width: 90vw;
 }
+.my-carousel {
+	width: 75%;
+	margin: 0 auto;
+	box-shadow: 3px 3px 3px black;
+
+}
