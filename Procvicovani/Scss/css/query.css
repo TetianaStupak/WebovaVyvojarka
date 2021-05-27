@@ -1,0 +1,48 @@
+@media only screen and (max-width: 950px) {
+
+    .mainHeader .logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    .navigation a {
+        font-size: 16px;
+    }
+
+}
+@media only screen and (max-width: 890px){
+    .checkicon {
+        display: block;
+    }
+    .navigation ul {
+        position: absolute;
+        top: 0px;
+        left: -100%;
+        width: 100%;
+        height: 100vh;
+        background: #2c3d50;
+        text-align: center;
+        transition: all .5s;
+    }  
+    .navigation li {
+        display: block;	
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    .navigation li a {
+        font-size: 20px;
+    }
+    a:hover, a.active {
+        background: none;
+        color: #e69600;
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+
+
+}
+
+
+
+
+

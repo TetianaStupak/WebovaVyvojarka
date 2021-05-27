@@ -1,0 +1,79 @@
+/*$main-color: red;
+$paragraf: green;
+$border-color: pink;
+$border-thickness: 2px;
+
+
+h1 {
+    color: $main-color;
+    border: $border-thickness solid $border-color;
+}
+p {
+    color: $paragraf;
+    border: $border-thickness solid $border-color;
+}
+a {
+    border: $border-thickness solid $border-colork;
+}
+.first-list {
+    font-size: 23px;
+
+    li {
+        color: saddlebrown;
+    }
+}*/
+/*.first-list {
+    font-size: 23px;
+
+    li {
+        color: blue;
+
+        a {
+            text-decoration: none;
+        }
+    }
+}*/
+/*a {
+    color: red;
+    text-decoration: none;
+    font-size: 18px;
+
+    &:hover {
+        color: blue;
+    }
+    &:link {
+        color: yellow;
+    }
+    &:visited {
+        color: chartreuse;
+    }
+    &:active {
+        color: orange;
+    }
+}*/
+/*@mixin style-button {
+    text-decoration: none;
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+
+.first-button {
+    @include style-button;
+    color: blue;
+}
+.second-button {
+    @include style-button;
+    color: green;
+}
+.third-button {
+    @include style-button;
+    color: yellow;
+}*/
+h1 {
+  color: lighten rgb 20, 105, 36, 30%;
+}
+
+header p {
+  color: darken rgb 20, 105, 36, 10%;
+}/*# sourceMappingURL=style.css.map */
