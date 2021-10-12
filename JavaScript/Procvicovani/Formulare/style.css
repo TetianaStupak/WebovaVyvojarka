@@ -1,0 +1,36 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+h1 {
+	text-align: center;
+}
+.notificationName, .notificationEmail {
+	width: 300px;
+	margin: 0 auto;
+	text-align: center;
+	color: white;
+	background: rgb(221, 129, 8);
+	padding-top: 5px;
+	padding-bottom: 3px;
+	border-radius: 3px;
+	margin-bottom: 5px;
+	display: none;
+}
+
+form {
+	text-align: center;
+	margin-top: 15px;
+}
+
+form input {
+	margin-bottom: 10px;
+}
+form input[type="submit"] {
+	background: blueviolet;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 15px;
+	border: 1px solid black;
+}
